@@ -20,7 +20,7 @@ squared_list = []
 
 for number in data:
     a = int(number) - mean(data)
-    a = a **2
+    a = a**2
     squared_list.append(a)
 
 sum = 0
